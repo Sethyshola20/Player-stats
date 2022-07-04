@@ -11,7 +11,7 @@ export default function Navbar() {
                                 <div className="league-logo">
                                     <img src={require('./Images/League-logo/bundesliga/bundesliga-vector-logo.png')} />
                                 </div>
-                                <div class="league-name">
+                                <div className="league-name">
                                     BUNDESLIGA
                                 </div>
                             </a>

@@ -4,32 +4,6 @@ export default function Footer() {
     return (
         <footer>
             <div className="credits">
-                    <div className="contact">
-                        <form method="post" id="contact-form" action="/">
-                            <div className="fields">
-                                <div className="field-half">
-                                    <label htmlFor="name">NAME</label>
-                                    <input type="text" name="name" id="name"/>
-                                </div>
-                                <div className="field-half">
-                                    <label htmlFor="email">EMAIL</label>
-                                    <input type="text" name="email" id="email"/>
-                                </div>
-                                <div className="field">
-                                    <label htmlFor="message">MESSAGE</label>
-                                    <textarea name="message" id="message" rows="6"></textarea>
-                                </div>
-                                <ul className="actions">
-                                    <li>
-                                        <input type="submit" value="Send" class="primary"/>
-                                    </li>
-                                    <li>
-                                        <input type="reset" value="Clear"/>                                    
-                                    </li>
-                                </ul>
-                            </div>
-                        </form>
-                    </div>
                 <div className="socials">
                     <h1>GOALSCORER</h1>
                     <div className="icons">
